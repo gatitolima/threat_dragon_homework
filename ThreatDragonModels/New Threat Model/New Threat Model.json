@@ -1275,6 +1275,162 @@
               "x": 1000,
               "y": -540
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "52c66b5c-f925-4eda-ae58-a676995f186e",
+            "source": {
+              "x": 169,
+              "y": -36
+            },
+            "target": {
+              "cell": "f9856bce-2fa4-4d8f-8b08-1caaf9368c31",
+              "port": "8fcae376-60e3-4679-9b77-f483e97717f4"
+            },
+            "vertices": [
+              {
+                "x": 230,
+                "y": -36
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo de datos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo de datos"
+            ],
+            "id": "0499b9b5-84f0-49b8-9a92-699648202cdd",
+            "source": {
+              "x": 384,
+              "y": -28
+            },
+            "target": {
+              "cell": "60257191-b1aa-4052-869f-9b769c49e0cd",
+              "port": "ef1a2aa7-360d-4613-91aa-ee50364f297f"
+            },
+            "vertices": [
+              {
+                "x": 460,
+                "y": 80
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo de datos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo de datos"
+            ],
+            "id": "cd48ae0b-f7eb-4f69-9092-bbb0bedcf31e",
+            "source": {
+              "x": 554,
+              "y": 190
+            },
+            "target": {
+              "cell": "cd20853a-e4c3-4cde-beb2-baa672f54e3f",
+              "port": "8fcae376-60e3-4679-9b77-f483e97717f4"
+            },
+            "vertices": [
+              {
+                "x": 610,
+                "y": 160
+              }
+            ]
           }
         ],
         "description": "tarea modelado"
