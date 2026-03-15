@@ -518,6 +518,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -601,7 +602,6 @@
               ]
             },
             "id": "b900050c-e2fe-4dba-a15b-87623bdb80e2",
-            "zIndex": 5,
             "data": {
               "type": "tm.Actor",
               "name": "User",
@@ -635,6 +635,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -718,7 +719,6 @@
               ]
             },
             "id": "7cdad69d-0611-491d-863e-3bdc45748275",
-            "zIndex": 6,
             "data": {
               "type": "tm.Actor",
               "name": "Third party\nApplications",
@@ -755,6 +755,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -838,7 +839,6 @@
               ]
             },
             "id": "2ec7e4bd-d040-46b4-9d9f-d6528d9bdb61",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "RAW Data",
@@ -879,6 +879,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -962,7 +963,6 @@
               ]
             },
             "id": "18949ec4-c467-4f96-91de-7cc467dafc9c",
-            "zIndex": 8,
             "data": {
               "type": "tm.Store",
               "name": "Processed\nScientific Data",
@@ -978,6 +978,246 @@
               "storesInventory": false,
               "threats": []
             }
+          },
+          {
+            "position": {
+              "x": 1122,
+              "y": -146
+            },
+            "size": {
+              "width": 110,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "Emailer\nProcess"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "ef1a2aa7-360d-4613-91aa-ee50364f297f"
+                },
+                {
+                  "group": "right",
+                  "id": "a1cd83bc-4e2d-4b90-92ef-6446dc26d7e4"
+                },
+                {
+                  "group": "bottom",
+                  "id": "8e7cd3f4-a1cf-4799-96aa-23beb4792948"
+                },
+                {
+                  "group": "left",
+                  "id": "8fcae376-60e3-4679-9b77-f483e97717f4"
+                }
+              ]
+            },
+            "id": "92b9e5a5-d70f-48ef-a40e-c7f34e654697",
+            "data": {
+              "type": "tm.Process",
+              "name": "Emailer\nProcess",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 9
+          },
+          {
+            "position": {
+              "x": 1122,
+              "y": -394
+            },
+            "size": {
+              "width": 110,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "SMTP\nServer"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "ef1a2aa7-360d-4613-91aa-ee50364f297f"
+                },
+                {
+                  "group": "right",
+                  "id": "a1cd83bc-4e2d-4b90-92ef-6446dc26d7e4"
+                },
+                {
+                  "group": "bottom",
+                  "id": "8e7cd3f4-a1cf-4799-96aa-23beb4792948"
+                },
+                {
+                  "group": "left",
+                  "id": "8fcae376-60e3-4679-9b77-f483e97717f4"
+                }
+              ]
+            },
+            "id": "7d25a5d9-1bfc-4b8a-ac70-63976d457c41",
+            "data": {
+              "type": "tm.Process",
+              "name": "SMTP\nServer",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 10
           }
         ],
         "description": "tarea modelado"
