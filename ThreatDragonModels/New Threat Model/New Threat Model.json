@@ -2037,6 +2037,156 @@
                 "y": 120
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "838f70a2-734a-423b-b00a-468515392b89",
+            "source": {
+              "x": 740,
+              "y": 94
+            },
+            "target": {
+              "cell": "60257191-b1aa-4052-869f-9b769c49e0cd",
+              "port": "a1cd83bc-4e2d-4b90-92ef-6446dc26d7e4"
+            },
+            "vertices": [
+              {
+                "x": 650,
+                "y": 190
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "cbd92ea4-6bcc-4ca0-95c8-3c5e96ffeeb2",
+            "source": {
+              "x": 370,
+              "y": 310
+            },
+            "target": {
+              "cell": "60257191-b1aa-4052-869f-9b769c49e0cd",
+              "port": "8e7cd3f4-a1cf-4799-96aa-23beb4792948"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "1afe77f1-8d9c-4ec2-8a8e-94c6fa287e15",
+            "source": {
+              "x": 1167,
+              "y": -36
+            },
+            "target": {
+              "cell": "cd20853a-e4c3-4cde-beb2-baa672f54e3f",
+              "port": "ef1a2aa7-360d-4613-91aa-ee50364f297f"
+            },
+            "vertices": [
+              {
+                "x": 920,
+                "y": 10
+              }
+            ]
           }
         ],
         "description": "tarea modelado"
