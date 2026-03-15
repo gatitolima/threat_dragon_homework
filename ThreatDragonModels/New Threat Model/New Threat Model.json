@@ -2187,6 +2187,58 @@
                 "y": 10
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "9e754281-dcc6-47fa-982f-925277b308f8",
+            "source": {
+              "x": 550,
+              "y": 300
+            },
+            "target": {
+              "cell": "7cdad69d-0611-491d-863e-3bdc45748275",
+              "port": "476df54c-7212-4237-8752-66722d06410a"
+            },
+            "vertices": [
+              {
+                "x": 460,
+                "y": 320
+              }
+            ]
           }
         ],
         "description": "tarea modelado"
